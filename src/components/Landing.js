@@ -55,12 +55,12 @@ export default function Landing() {
 
                 <div style={{marginTop:20, display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
                     {/* <EmailIcon style={{color:'white', marginRight:10}}/> */}
-                    <p style={{padding:0, margin:0, color:'white', fontWeight:'bold'}}>davidg3@protonmail.com</p>
+                    <p style={{padding:0, margin:0, color:'white',fontSize:14, fontWeight:'bold'}}>davidg3@protonmail.com</p>
                 </div>
 
                 <div style={{display:'flex', marginTop:20, flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
                     {/* <LocalPhoneIcon style={{color:'white', marginRight:10}}/> */}
-                    <p style={{padding:0, margin:0, color:'white', fontWeight:'bold'}}>+1 (305) 775-2267</p>
+                    <p style={{padding:0, margin:0, color:'white', fontSize:14, fontWeight:'bold'}}>+1 (305) 775-2267</p>
                 </div>
 
             </div>
@@ -136,7 +136,7 @@ export default function Landing() {
                 <div style={{marginBottom:40, display:'flex', alignItems:'center', flexDirection:'row', marginTop:10}}>
                     <Avatar  sx={{ width: 70, height: 70 }} src={ucb} />
                     <div style={{display:'flex', marginLeft:15, flexDirection:'column', justifyContent:'flexStart'}}>
-                        <p style={{fontWeight:'normal', fontSize:14, color:'white' }} ><b>University of California, Berkeley</b> <br/> B.S. - Electrical Engineering & Computer Science - Class of '23 <br/>Organizations - Engineers without Borders, Poker and Chess clubs</p>
+                        <p style={{fontWeight:'normal', fontSize:14, color:'white' }} ><b>University of California, Berkeley</b> <br/> B.S. - Electrical Engineering & Computer Science - Class of '23 <br/>Organizations - Engineers without Borders, Poker / Chess clubs</p>
                     </div>
                 </div>
 
