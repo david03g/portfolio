@@ -1,24 +1,52 @@
+import React, { Fragment } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import Landing from './components/Landing';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     
+    <Router>
+
+      <Fragment>
+    
+        <div  className='App' style={{backgroundColor:'#10212f'}}>
+
+      <NavBar/>
+
+
+
+          <div style={{ display:'flex',  
+    flexDirection:'column', 
+    justifyContent:'center', 
+    padding:20}}>
+
+            <Routes>
+
+              <Route path='/' exact={true} element={<Landing/>}/>
+        
+
+            </Routes>
+
+          </div>
+
+        </div>
+
+        <Footer/>
+
+     
+      </Fragment>
+      
+    </Router>
+
   );
 }
 

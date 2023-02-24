@@ -1,5 +1,14 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 600px;
+  background-color: white;
+
 }
 
 .App-logo {
@@ -35,4 +44,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.profile-card {
+  padding: 15px;
+  box-shadow: 0 4px 14px #00000029;
+  border-radius: 10px;
+}
+
+
+.stats-card {
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 14px #00000029;
+  border-radius: 10px;
+  display: flex;
+  /* height:75px; */
+  flex-direction: row;
+  justify-content: space-around;
+  background: #1f2022;
+  /* background: rgb(102,100,255); */
+/* background: linear-gradient(90deg, rgba(102,100,255,1) 0%, rgba(116,55,255,0.6033773016997167) 100%); */
 }
