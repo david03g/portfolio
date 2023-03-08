@@ -9,6 +9,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import ampedchess from '../art/ampedchess.gif';
 import ampedtrading from '../art/ampedtrading.gif';
 import ordermedia from '../art/ordermedia.jpg';
+
+import swoop from '../art/swoop.png';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import ucb from '../art/ucb.jpg';
 
@@ -86,7 +88,8 @@ export default function Landing() {
                         </div>
                     </div>
                         <p style={{color:'white', fontSize:14}}>
-                        Due to the "tournament effect," only a small number of exceptionally skilled or entertaining players can monetize their participation in professional sports/esports. This leaves millions of everyday players with limited or no options to compete for prizes. Amped Chess addresses this issue by creating a more lucrative environment for the game of chess, primarily through prize pool tournaments and wagers. Amped Chess is currently building a network of clubs and teams to host regular events and plans to expand the online platform to include other video/board games.                    </p>
+                        Due to the "tournament effect," only a small number of exceptionally skilled or entertaining players can monetize their participation in professional sports/esports. This leaves millions of everyday players with limited or no options to compete for prizes. Amped Chess addresses this problem by creating a more lucrative environment for the game of chess, primarily through prize pool tournaments and wagers. Amped Chess is currently building a network of clubs and teams to host regular events. The company plans to expand the online platform to include other video/board games.
+                        </p>
                     <a style={{textDecoration:'none'}}  href='https://ampedchess.com'><p  style={{fontWeight:'bold', color:'white',fontSize:14, padding:0, margin:0}}>ampedchess.com</p></a>
                 </div>
 
@@ -106,6 +109,31 @@ export default function Landing() {
 
                 </div>
 
+
+                <div className={classes.container}>
+                    <div className={classes.border} />
+                    <span className={classes.content}>{<p style={{color:'white', paddingLeft:10, paddingRight:10, fontSize:22, fontWeight:'bold', }}>Web3</p>
+                        }</span>
+                    <div className={classes.border} />
+                </div>
+
+                <div class='profile-card' style={{ display:'flex', marginBottom:20, flexDirection:'column', backgroundColor:'#081424', borderRadius:10, padding:20}}>
+                    <div style={{display:'flex', flexDirection:'row', alignItems:'center',  borderRadius:10}} >
+                        {/* <Icon size={80}/> */}
+                        <img style={{width:70, height:70, marginLeft:5, marginRight:7}}  src={swoop} />
+
+
+                        <div style={{display:'flex', marginLeft:15, flexDirection:'column', justifyContent:'flexStart'}}>
+                            <p style={{fontWeight:'normal', color:'white', fontSize:16, }} ><b>Swoop</b> <br/>Permanent and Intrinsic NFTs</p>
+                        </div>
+                    </div>
+                        <p style={{color:'white', fontSize:14}}>
+                        Swoop is a Web3 technology that I created, which can mint any computer file into a secure and immutable NFT. Unlike most NFTs that lack a tangible connection to the underlying media, Swoop tokens provide permanent and intrinsic value through the use of a layer 2 chain (Polygon), the Inter Planetary File System (IPFS), signed transactions, and royalties. The meta-tx enabled ERC-721 smart contract allows creators to mint Swoop tokens without owning any crypto. To further support the ecosystem, I have created a fully featured marketplace to buy and sell Swoop tokens. The backend technology is highly versatile and can be applied to various niches.                       
+                        </p>
+                    <a style={{textDecoration:'none'}} href='https://swoop.uno'><p  style={{fontWeight:'bold', color:'white',fontSize:14, padding:0, margin:0}}>swoop.uno</p></a>
+
+                </div>
+         
 
                 
 
